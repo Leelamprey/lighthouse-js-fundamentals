@@ -1,0 +1,11 @@
+function howManyHundreds(num)
+{
+  let can = 0;
+  while(num => 100){
+    can++;
+    num= num-100;
+  }
+  return can;
+}
+
+console.log(howManyHundreds(500));
